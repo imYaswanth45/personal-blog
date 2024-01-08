@@ -1,0 +1,61 @@
+.Register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://st2.depositphotos.com/3591429/7158/i/600/depositphotos_71584499-stock-photo-register-of-membership-concept.jpg");
+    background-size: cover;
+  }
+  
+  .RegisterTitle {
+    font-size: 50px;
+  }
+  
+  .RegisterForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .RegisterForm > label {
+    margin: 10px 0;
+  }
+  
+  .RegisterInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+  }
+  
+  .RegisterButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .RegisterButton:disabled{
+    cursor: not-allowed;
+    background-color: rgb(252, 173, 173);
+  }
+  
+  .RegisterLoginButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+  }
+  
